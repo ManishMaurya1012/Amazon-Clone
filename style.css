@@ -206,7 +206,9 @@ ul a {
     margin-top: 10px;
     color: #dddddd;
 }
-.footer-panel3{
+
+/* Footer section with logo */
+.footer-panel3 {
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid white;
@@ -215,12 +217,17 @@ ul a {
     justify-content: center;
     align-items: center;
 }
-.logo{
-    background-image: url("amazon_logo.png");
-    background-size: cover;
-    height: 50px;
-    width: 100%
+
+/* Logo section */
+.logo {
+    background-image: url("amazon_logo.png"); /* Make sure the image path is correct */
+    background-size: contain;  /* Ensures the logo is properly contained */
+    background-repeat: no-repeat; /* Prevents repeating the logo */
+    height: 70px;  /* Adjust the height as needed */
+    width: 200px;  /* You can adjust the width for the logo to fit better */
+    background-position: center;  /* Centers the logo within the container */
 }
+
 .footer-panel4 {
     background-color: #0f1111;
     color: white;
